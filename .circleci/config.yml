@@ -6,6 +6,6 @@ workflows:
 jobs:
   runner:
     machine: true
-    resource_class: wdt-devops/devops-runner-resource-class
+    resource_class: <name-space>/<resource-class>
     steps:
       - run: echo "Hi I'm on Runners!"
